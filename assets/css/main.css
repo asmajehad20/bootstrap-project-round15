@@ -50,6 +50,7 @@
     color: black;
 }
 
+/* /////////////////////////////////////// */
 .hero-section{
     background-image: url("../img/public/samurai_banner.webp");
     height: 570px;
@@ -361,6 +362,9 @@
    }
 }
 /* ////////////////////////// */
+.footer-bg{
+    background-color: rgb(243, 243, 243);
+}
 .footer{
     padding: 40px;
     flex-wrap: wrap;
@@ -377,7 +381,7 @@
     font-family: var(--font2);
 }
 .footer .contact-social{
-    margin-top: 40px;
+    padding-top: 40px;
     font-size: 20px;
     gap: 25px;
 }

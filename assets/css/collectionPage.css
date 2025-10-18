@@ -1,0 +1,130 @@
+.sakura-hero-section{
+    background-image: url("../img/collections/sakura_banner.webp");
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    
+    display: flex;
+    align-items: center;
+}
+.sakura-hero-content{
+    
+    margin-left: 100px;
+}
+
+.sakura-hero-content h1{
+    font-size: 3rem;
+}
+.sakura-hero-content p{
+    font-size: 1.1875rem;
+}
+
+@media (max-width: 768px) {
+  .sakura-hero-content {
+    margin-left: 50px;      
+  }
+  .sakura-hero-content h1{
+    font-size: 2.5rem;
+  }
+  .sakura-hero-content p{
+    font-size: 1rem;
+  }
+  
+}
+@media (max-width: 576px) {
+  .sakura-hero-content {
+    margin-left: 20px;      
+  }
+  .sakura-hero-content h1{
+    font-size: 2.2rem;
+  }
+  .sakura-hero-content p{
+    font-size: 1rem;
+  }
+  
+}
+
+/* //////////////////////////// */
+.add-showcase{
+    flex-wrap: wrap;
+}
+.add-showcase .card{
+    border: none;
+    flex-grow: 1;
+    flex-basis: 250px;
+    flex-shrink: 0;
+
+    width: 50%;  
+    background-color: #f2f2f2;
+}
+
+.add-showcase .card-details{
+    margin: auto;
+    text-align: center;
+    
+    font-size: 14px;
+    padding:40px 30px;
+}
+
+.add-showcase .card-details a{
+    color: black;
+    font-size: 13px;
+}
+@media (max-width: 576px) {
+  .card-1 {
+    order: 2;
+  }
+  .card-2 {
+    order: 1;
+  }
+}
+
+/* ///////////////////////////////// */
+.sakura-showcase h2{
+    font-size: 24px;
+    font-weight: 300;
+}
+.sakura-showcase .card-list{
+    margin-left: -25px;
+    margin-right: -25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.sakura-showcase .card{
+    width: calc((100% - 40px) / 5);
+    padding :0;
+}
+.sakura-showcase .card img{
+    width: 100%;
+}
+.sakura-showcase .card-text{
+    font-weight: 400;
+    font-family: var(--font1);
+    letter-spacing: 1;
+    word-break: break-word;
+    font-size: 15px;
+}
+.sakura-showcase .price{
+    font-size: 18px;
+}
+@media (max-width: 992px) {
+  .sakura-showcase .card{
+    width: calc((100% - 30px) / 4);
+  }
+}
+@media (max-width: 768px) {
+  .sakura-showcase .card{
+    width: calc((100% - 20px) / 2);
+  }
+}
+@media (max-width: 576px) {
+  .sakura-showcase .card{
+    width: 100%;
+  }
+  .sakura-showcase .card-list{
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
