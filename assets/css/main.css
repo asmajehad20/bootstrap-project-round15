@@ -24,14 +24,25 @@
 .text-20{
     font-size: 1.25rem;
 }
-
+.text-24{
+    font-size: 24px;
+}
 .text-gray{
     color:#858585;
+}
+.letter-space-2{
+    letter-spacing: 2px
 }
 .logo{
     height: 50px;
     width: 130px;
 }
+@media (max-width: 576px) {
+  .top-top {
+    display: none !important;      
+  } 
+}
+
 /* //////////////////////// */
 .dropdown-item:focus,
 .dropdown-item:active {
