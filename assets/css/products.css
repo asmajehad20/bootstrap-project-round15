@@ -59,3 +59,135 @@
     padding-right: 0;
   }
 }
+
+/* ///////////////////////////////// */
+.maylike-showcase .card{
+  width: calc((100% - 40px) / 4);
+
+}
+.maylike-showcase h2{
+  font-size: 24px;
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .maylike-showcase .card{
+    width: calc((100% - 20px) / 2);
+  }
+  .maylike-showcase .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (max-width: 576px) {
+  .maylike-showcase .card{
+    width: 100%;
+  }
+  .maylike-showcase .card-list{
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .maylike-showcase .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+/* //////////////////////////////////////// */
+.one-product{
+  gap: 5px;
+}
+.one-product .side{
+  width: calc((100% - 5px) / 2);
+}
+
+.input-group{
+  border: 0.5px solid #413f3f;
+  width: 150px;
+  padding: 4px 0;
+}
+.showcase .showcase-img{
+  width: 90%;
+}
+.showcase-more{
+  justify-content: flex-start;
+  gap:10px;
+}
+.showcase-more img{
+  width:150px;
+}
+
+.product-info .info-title h2{
+  font-size: 24px;
+  font-weight: 400;
+  font-family: var(--font1);
+}
+.form-label{
+  color: #707070;
+  font-weight: 200;
+  font-size: 14px;
+}
+
+.btns{
+  justify-content: flex-start;
+}
+.my-btn{
+  width: 440px;
+  height: 49px;
+  /* text-align: center; */
+
+  text-decoration: none;
+  color: black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.my-btn img{
+  width: 100%;
+  height: 100%;
+}
+.btn-add{
+  border: 1.5px solid black;
+  padding:15px;
+}
+.more-options{
+  padding: 10px 150px;
+  color: black;
+  font-size: 14px;
+}
+
+.gray-text{
+  color: #121212bf;
+}
+.info{
+  max-width: 80%;
+}
+.special-text{
+  font-size: 14px;
+  font-weight: 400;
+  color: #121212bf;
+}
+
+@media (max-width: 992px) {
+  .my-btn{
+    width: 360px;
+    height: 49px;
+  }
+}
+@media (max-width: 768px) {
+  .one-product .side{
+    width: calc((100% - 5px) / 1);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .btns{
+    justify-content: center;
+  }
+  .my-btn{
+    width: 100%;
+    
+  }
+}
