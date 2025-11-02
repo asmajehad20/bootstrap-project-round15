@@ -5,6 +5,18 @@
     --font1: 'Playfair Display', serif;
     --font2: "Roboto", sans-serif;
 }
+p{
+  letter-spacing: 1px;
+}
+a{
+  letter-spacing: 1px;
+}
+h1{
+  letter-spacing: 2px;
+}
+h2{
+  letter-spacing: 2px;
+}
 
 .font-1{
     font-family: var(--font1);
@@ -42,7 +54,15 @@
     display: none !important;      
   } 
 }
-
+.card:hover .card-text{
+  text-decoration: underline;
+}
+.card img{
+  transition: transform 0.4s ease;
+}
+.card:hover img{
+  transform: scale(1.05);
+}
 /* //////////////////////// */
 .dropdown-item:focus,
 .dropdown-item:active {
@@ -60,7 +80,28 @@
     text-decoration: underline;
     color: black;
 }
+@media (max-width: 768px){
+  .nav-link i{
+    font-size: 14px;
+  }
+  .logo{
+    width:100px;
+    height: 40px;
+  }
+  .navbar-toggler{
+    padding: 5px;
+  }
+  .navbar-toggler-icon{
+    width:20px;
+    height: 20px;
+  }
+}
 
+@media (max-width: 576px){
+  .logo{
+    display: none;
+  }
+}
 /* /////////////////////////////////////// */
 .hero-section{
     background-image: url("../img/public/samurai_banner.webp");

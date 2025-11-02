@@ -175,8 +175,11 @@
   }
 }
 @media (max-width: 768px) {
+  .one-product{
+  text-align: center;
+}
   .one-product .side{
-    width: calc((100% - 5px) / 1);
+    width: 100%;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -188,6 +191,24 @@
   }
   .my-btn{
     width: 100%;
-    
+  }
+  .info-title h2{
+    font-size: 18px;
+  }
+}
+@media (max-width: 576px) {
+  .my-btn{
+    width: 70%;
+    margin: auto;
+  }
+  .showcase-img{
+    width: 90%;
+    margin: auto;
+  }
+  .table{
+    margin:0;
+  }
+  .table .td{
+    padding:5px;
   }
 }

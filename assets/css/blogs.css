@@ -15,6 +15,7 @@
 .products-showcase .card{
     width: calc((100% - 40px) / 4);
     padding :0;
+    text-align: left;
 }
 .products-showcase .card img{
     width: 100%;
@@ -23,15 +24,26 @@
     border-radius: 0;
 }
 .products-showcase .card-text{
-    font-weight: 400;
+    font-weight: 500;
     font-family: var(--font1);
-    letter-spacing: 1;
+    letter-spacing: 1px;
     word-break: break-word;
-    font-size: 15px;
+    font-size: 16px;
 }
-.products-showcase .price{
-    font-size: 18px;
+.blog-date{
+  letter-spacing: 1px;
+  font-size: 12px;
 }
+.blog-text-info{
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 1px;
+
+  max-height: 6.3em;
+  overflow: hidden;
+  /* text-overflow: ellipsis; */
+}
+
 @media (max-width: 992px) {
   .products-showcase .container {
     padding-left: 0;
