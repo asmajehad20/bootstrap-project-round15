@@ -39,11 +39,14 @@
     />
 
     <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/blogs.css" />
   </head>
   <body>
     <header class="sticky-top">
-      <div class="top-top p-2 bg-dark d-flex justify-content-center align-items-center">
-        <p class="text-white m-0 text-14 font-1">Worldwide Shipping</p>
+      <div class=" top-top p-2 bg-dark d-flex justify-content-center align-items-center ">
+        <p class="text-white m-0 text-14 font-1">
+          Order by late October to early November for Christmas delivery | Worldwide Shipping
+        </p>
       </div>
       <div class="container-fluid bg-white">
         <nav class="navbar navbar-expand-lg pt-2 pb-2 ps-3 pe-4">
@@ -109,10 +112,16 @@
                     >About us <i class="fa-solid fa-chevron-down text-10"></i
                   ></a>
                   <ul class="dropdown-menu rounded-0 ps-2 pe-5 py-4 text-14">
-                    <li><a class="dropdown-item" href="#">About L&Co.TOKYO</a></li>
-                    <li><a class="dropdown-item" href="#">Studio in Yamanashi</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">About L&Co.TOKYO</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Studio in Yamanashi</a>
+                    </li>
                     <li><a class="dropdown-item" href="#">Our Stores</a></li>
-                    <li><a class="dropdown-item" href="#">Sustainability</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Sustainability</a>
+                    </li>
                     <li><a class="dropdown-item" href="#">Blog</a></li>
                   </ul>
                 </li>
@@ -148,305 +157,69 @@
     </header>
 
     <main>
-      <section class="hero-section">
-        <div class="hero-content text-white d-flex flex-column gap-3">
-          <h1 class="font-1 text-uppercase">Samurai</h1>
-          <p>Handcrafted jewelry from Japan</p>
-          <a class="text-white text-uppercase" href="#">Shop Collection</a>
-        </div>
+      <section class="filter">
+        <h2 class="text-center text-24 letter-space-2 font-1">Blog</h2>
       </section>
 
-      <section class="main-collections d-flex">
-        <div class="card">
-          <img src="./assets/img/collections/NECKLACES.webp" alt="neckleces" />
-          <a class="text-uppercase" href="#">NECKLACES</a>
-        </div>
-        <div class="card">
-          <img src="./assets/img/collections/EARRINGS.webp" alt="neckleces" />
-          <a class="text-uppercase" href="#">EARRINGS</a>
-        </div>
-        <div class="card">
-          <img src="./assets/img/collections/RINGS.webp" alt="neckleces" />
-          <a class="text-uppercase" href="#">RINGS</a>
-        </div>
-        <div class="card">
-          <img src="./assets/img/collections/BRACELETS.webp" alt="neckleces" />
-          <a class="text-uppercase" href="#">BRACELETS</a>
-        </div>
-      </section>
-
-      <section class="rings-showcase d-flex">
-        <div class="card">
-          <img
-            src="./assets/img/public/kanji_icon (1).webp"
-            alt="rings collections"
-          />
-          <div class="card-details">
-            <p class="text-uppercase">kanji collection</p>
-            <a href="#">Shop Now</a>
-          </div>
-        </div>
-        <div class="card">
-          <img
-            src="./assets/img/public/kanji_icon (2).webp"
-            alt="rings collections"
-          />
-          <div class="card-details">
-            <p class="text-uppercase">wagara collection</p>
-            <a href="#">Shop Now</a>
-          </div>
-        </div>
-      </section>
-
-      <section class="store-showcase d-flex">
-        <div class="card">
-          <img
-            src="./assets/img/public/customization.webp"
-            alt="customization"
-          />
-          <div class="card-details">
-            <p class="text-uppercase">customization</p>
-            <a href="#">Shop Now</a>
-          </div>
-        </div>
-        <div class="card">
-          <img
-            src="./assets/img/public/sakura_icon.jpg"
-            alt="Sakura collections"
-          />
-          <div class="card-details">
-            <p class="text-uppercase">Sakura collection</p>
-            <a href="#">Shop Now</a>
-          </div>
-        </div>
-        <div class="card">
-          <img
-            src="./assets/img/public/store_icon.webp"
-            alt="Sakura collections"
-          />
-          <div class="card-details">
-            <p class="text-uppercase text-white">visit us</p>
-            <a class="text-white" href="#">Find our stores</a>
-          </div>
-        </div>
-      </section>
-
-      <section class="fuji">
-        <div class="img"></div>
-      </section>
-
-      <section class="fav">
+      <section class="products-showcase pt-4">
         <div class="container">
-          <h2 class="text-uppercase font-1">OUR FAVORITES</h2>
-          <div class="fav-list d-flex gap-2 justify-content-center">
-            <a class="card text-decoration-none">
-              <img src="./assets/img/rings/edo_black.webp" alt="..." />
-              <div class="card-body text-center">
-                <p class="card-text text-12 text-gray">
-                  Silver Edokiriko Pattern Ring | 14-2474
+          <div class="row card-list py-4 py-md-3 py-sm-3">
+            <a href="./product.html" class="card border-0">
+              <img
+                src="./assets/img/blogs/yamanashi_lake.webp"
+                class="card-img-top"
+                alt="blog 1"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  10 Karat Gold Birthstone Necklace｜63-8161-8175
                 </p>
-                <p class="text-14">$95.00</p>
+                <p class="price">$530.00 USD</p>
               </div>
             </a>
 
-            <a class="card text-decoration-none">
-              <img src="./assets/img/rings/ring2.webp" alt="..." />
-              <div class="card-body text-center">
-                <p class="card-text text-12 text-gray">
-                  Silver Hidden Samurai Ring (14-2361)
+            <a href="./product.html" class="card border-0">
+              <img
+                src="./assets/img/blogs/kabuto_cover.webp"
+                class="card-img-top"
+                alt="blog 1"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  18 Karat Gold Diamond and Birthstone Necklace | 96-1095-1106
                 </p>
-                <p class="text-14">$155.00</p>
+                <p class="price">$1,325.00 USD</p>
               </div>
             </a>
 
-            <a class="card text-decoration-none">
-              <img src="./assets/img/rings/tomoe_silver.webp" alt="..." />
-              <div class="card-body text-center">
-                <p class="card-text text-12 text-gray">
-                  Silver Tomoe Pattern Ring | 14-2467
+            <a href="./product.html" class="card border-0">
+              <img
+                src="./assets/img/blogs/personalization.webp"
+                class="card-img-top"
+                alt="blog 1"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  10 Karat Gold Diamond0.10ct Necklace Seigaiha｜60-8177
                 </p>
-                <p class="text-14">$81.00</p>
+                <p class="price">$627.00 USD</p>
               </div>
             </a>
 
-            <a class="card text-decoration-none">
-              <img src="./assets/img/rings/ring4.webp" alt="..." />
-              <div class="card-body text-center">
-                <p class="card-text text-12 text-gray">
-                  18 Karat Gold Color Stone Ring｜96-2082
+            <a href="./product.html" class="card border-0">
+              <img
+                src="./assets/img/blogs/tama_1.webp"
+                class="card-img-top"
+                alt="blog 1"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                 Silver Sakura Pattern Necklace (64-3765)
                 </p>
-                <p class="text-14">$1,403.00</p>
+                <p class="price">$329.00 USD</p>
               </div>
             </a>
 
-            <a class="card text-decoration-none">
-              <img src="./assets/img/neclaces/necklace.webp" alt="..." />
-              <div class="card-body text-center">
-                <p class="card-text text-12 text-gray">
-                  Silver Color Stone Sakura Necklace｜60-9407-9410
-                </p>
-                <p class="text-14">$133.00</p>
-              </div>
-            </a>
-
-            <a class="card text-decoration-none">
-              <img src="./assets/img/earrings/Sakura-Earrings.webp" alt="..." />
-              <div class="card-body text-center">
-                <p class="card-text text-12 text-gray">
-                  10 Karat Pink Gold Rose Quartz Sakura Earrings | 43-1099
-                </p>
-                <p class="text-14">$67.00</p>
-              </div>
-            </a>
-          </div>
-        </div>
-      </section>
-
-      <section class="treasures">
-        <div class="container">
-          <h2 class="text-uppercase font-1">JAPAN'S TREASURES</h2>
-          <div class="treasures-list d-flex gap-2 justify-content-center">
-            <a class="card text-decoration-none">
-              <img src="./assets/img/public/treasures1.webp" alt="..." />
-              <div class="card-body text-center">
-                <p class="card-text text-12 text-gray">Tama Hina (Red)</p>
-                <p class="text-14">$3,907.00</p>
-              </div>
-            </a>
-
-            <a class="card text-decoration-none">
-              <img src="./assets/img/public/treasures2.webp" alt="..." />
-              <div class="card-body text-center">
-                <p class="card-text text-12 text-gray">Small and Big Coins</p>
-                <p class="text-14">$1,401.00</p>
-              </div>
-            </a>
-
-            <a class="card text-decoration-none">
-              <img src="./assets/img/public/treasures3.webp" alt="..." />
-              <div class="card-body text-center">
-                <p class="card-text text-12 text-gray">Seven Lucky Gods</p>
-                <p class="text-14">$22,258.00</p>
-              </div>
-            </a>
-
-            <a class="card text-decoration-none">
-              <img src="./assets/img/public/treasures4.webp" alt="..." />
-              <div class="card-body text-center">
-                <p class="card-text text-12 text-gray">Helmet (Nobunaga)</p>
-                <p class="text-14">$19,974.00</p>
-              </div>
-            </a>
-          </div>
-        </div>
-      </section>
-
-      <section class="aboutus-showcase d-flex">
-        <div class="card">
-          <img
-            src="./assets/img/public/aboutus1.webp"
-            alt="rings collections"
-          />
-          <div class="card-details">
-            <p class="text-uppercase">ABOUT US</p>
-          </div>
-        </div>
-        <div class="card">
-          <img
-            src="./assets/img/public/aboutus2.webp"
-            alt="rings collections"
-          />
-          <div class="card-details">
-            <p class="text-uppercase">OUR STUDIO</p>
-          </div>
-        </div>
-      </section>
-
-      <section class="insta">
-        <h2 class="text-uppercase font-1">INSTAGRAM</h2>
-        <div class="insta-list">
-          <div class="img">
-            <img src="./assets/img/insta/social1.jpg" alt="social instagram" />
-            <div class="overlay d-flex">
-              <i class="fa-solid fa-play"></i>
-            </div>
-          </div>
-
-          <div class="img">
-            <img src="./assets/img/insta/social2.jpg" alt="social instagram" />
-            <div class="overlay d-flex">
-              <i class="fab fa-instagram fa-2x"></i>
-            </div>
-          </div>
-
-          <div class="img">
-            <img src="./assets/img/insta/social3.jpg" alt="social instagram" />
-            <div class="overlay d-flex">
-              <i class="fab fa-instagram fa-2x"></i>
-            </div>
-          </div>
-
-          <div class="img">
-            <img src="./assets/img/insta/social4.jpg" alt="social instagram" />
-            <div class="overlay d-flex">
-              <i class="fab fa-instagram fa-2x"></i>
-            </div>
-          </div>
-
-          <div class="img">
-            <img src="./assets/img/insta/social5.jpg" alt="social instagram" />
-            <div class="overlay d-flex">
-              <i class="fab fa-instagram fa-2x"></i>
-            </div>
-          </div>
-
-          <div class="img">
-            <img src="./assets/img/insta/social6.jpg" alt="social instagram" />
-            <div class="overlay d-flex">
-              <i class="fab fa-instagram fa-2x"></i>
-            </div>
-          </div>
-
-          <div class="img">
-            <img src="./assets/img/insta/social7.jpg" alt="social instagram" />
-            <div class="overlay d-flex">
-              <i class="fab fa-instagram fa-2x"></i>
-            </div>
-          </div>
-
-          <div class="img">
-            <img src="./assets/img/insta/social8.jpg" alt="social instagram" />
-            <div class="overlay d-flex">
-              <i class="fab fa-instagram fa-2x"></i>
-            </div>
-          </div>
-
-          <div class="img">
-            <img src="./assets/img/insta/social9.jpg" alt="social instagram" />
-            <div class="overlay d-flex">
-              <i class="fab fa-instagram fa-2x"></i>
-            </div>
-          </div>
-
-          <div class="img">
-            <img src="./assets/img/insta/social10.jpg" alt="social instagram" />
-            <div class="overlay d-flex">
-              <i class="fab fa-instagram fa-2x"></i>
-            </div>
-          </div>
-
-          <div class="img">
-            <img src="./assets/img/insta/social11.jpg" alt="social instagram" />
-            <div class="overlay d-flex">
-              <i class="fab fa-instagram fa-2x"></i>
-            </div>
-          </div>
-
-          <div class="img">
-            <img src="./assets/img/insta/social12.jpg" alt="social instagram" />
-            <div class="overlay d-flex">
-              <i class="fab fa-instagram fa-2x"></i>
-            </div>
           </div>
         </div>
       </section>

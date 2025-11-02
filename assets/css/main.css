@@ -415,3 +415,54 @@
     max-height: 100%;
     object-fit: contain
 }
+
+/* /////////////////////////// */
+.myy-btn{
+    padding: 10px 40px;
+    background-color: #072044;
+    color:white !important;
+
+    border-radius: 0;
+    text-decoration: none;
+}
+.register a{
+    color: black;
+    font-weight: 400;
+    font-size: 14px;
+}
+.register h1{
+    font-size: 32px;
+}
+.input{
+    padding: 10px 20px;
+    width: 30%;
+    /* 420px; */
+}
+.forget-pass{
+    margin-left: -260px;
+}
+@media (max-width: 992px) {
+  .input{
+    width: 40%;
+    
+  }
+  .forget-pass{
+    margin-left: 0;
+  }
+}
+@media (max-width: 768px) {
+  .input{
+    width: 50%;
+  }
+}
+@media (max-width: 576px) {
+  .input{
+    width: 80%;
+  }
+}
+@media (max-width: 576px) { 
+  .input{
+    padding: 10px 20px;
+    width: 80%;
+  }
+}
